@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ===== BASIC SEO ===== -->
+<meta name="description" content="Thiệp cưới online của Thùy Chung & Mạnh Tuấn. Trân trọng kính mời Quý gia đình và bạn bè đến dự lễ thành hôn của chúng tôi.">
+<meta name="keywords" content="thiệp cưới online, thiệp cưới điện tử, thiệp mời cưới, Thùy Chung Mạnh Tuấn, wedding invitation">
+<meta name="author" content="Thùy Chung & Mạnh Tuấn">
+
+<!-- ===== OPEN GRAPH / FACEBOOK / ZALO ===== -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Thiệp Cưới | Thùy Chung & Mạnh Tuấn">
+<meta property="og:description" content="Trân trọng kính mời Quý gia đình và bạn bè đến dự lễ thành hôn của Thùy Chung & Mạnh Tuấn 💍">
+<meta property="og:image" content="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512049507303_7d3f06a8bd66296d66f77e0df01b1f50_ns9u01.jpg">
+<meta property="og:image:secure_url" content="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512049507303_7d3f06a8bd66296d66f77e0df01b1f50_ns9u01.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Thiệp Cưới Thùy Chung & Mạnh Tuấn">
+
+<!-- ===== ZALO OPTIMIZE ===== -->
+<meta property="og:locale" content="vi_VN">
+<meta property="og:image:alt" content="Thiệp cưới Thùy Chung & Mạnh Tuấn">
+
+<!-- ===== FACEBOOK CACHE CONTROL (OPTIONAL) ===== -->
+<meta property="fb:app_id" content="">
+
+<title>Thiệp Cưới | Thùy Chung & Mạnh Tuấn</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Lightbox -->
+<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #f6ede4;
+  color: #5b3a2e;
+  line-height: 1.7;
+}
+
+.section {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  color: #8b1e1e;
+  font-size: 38px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+.names {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  color: #8b1e1e;
+  margin: 25px 0;
+}
+
+.date {
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery a:nth-child(5n+1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0,0,0,.18);
+}
+
+/* ===== HERO ===== */
+.hero {
+  height: 100vh;
+  background: url("https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512049507303_7d3f06a8bd66296d66f77e0df01b1f50_ns9u01.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;      /* KHÔNG khóa đáy */
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Nội dung */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+
+  /* 🔥 ĐIỀU CHỈNH VỊ TRÍ Ở ĐÂY */
+  transform: translateY(110px);
+}
+
+/* TÊN */
+.hero-names {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.hero-names .name {
+  text-shadow: 2px 2px 6px rgba(0,0,0,.4);
+}
+
+.hero-names .heart {
+  font-size: 34px;
+  color: #cd1414;
+  animation: heartbeat 1.8s infinite;
+}
+
+/* TEXT */
+.hero-content p {
+  font-size: 1.15rem;
+  margin: 8px 0;
+  text-shadow: 1px 1px 4px rgba(0,0,0,.4);
+}
+
+/* HEART ANIMATION */
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .hero-content {
+    transform: translateY(50px); /* mobile thấp hơn chút */
+  }
+
+  .hero-names {
+    font-size: 32px;
+  }
+
+  .hero-names .heart {
+    font-size: 26px;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+}
+/* ===== HERO ===== */
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .hero {
+    padding-bottom: 20px;   /* 👈 mobile hạ sâu hơn */
+  }
+
+  .hero-names {
+    font-size: 32px;
+  }
+
+  .hero-names .heart {
+    font-size: 26px;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+}
+
+/* LOI MOI */
+.font-script{
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.4rem;
+  color: var(--primary);
+  line-height: 1.6;
+}
+@media (max-width: 768px){
+  .font-script{
+    font-size: 1.8rem;
+  }
+}
+.qr-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.qr-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.06);
+}
+
+.qr-card img {
+  width: 180px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  opacity: .7;
+  padding-bottom: 40px;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.family-section {
+  background-color: #ffffff; /* màu nền trắng */
+  padding: 40px 20px;
+  background-image: none; /* đảm bảo không có ảnh */
+}
+
+.family-card {
+  max-width: 760px;
+  margin: auto;
+  background: rgba(246, 237, 228, 0.95);
+  padding: 40px 30px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.family-title {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+.family-name {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.family-address {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 20px;
+
+  letter-spacing: 1.2px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.address-text {
+  white-space: nowrap;
+  letter-spacing: 1.3px;
+}
+
+.center-text {
+  font-size: 16px;
+}
+
+.big-names {
+  font-family: 'Playfair Display', serif;
+  font-size: 44px;
+  color: #8b1e1e;
+  margin: 14px 0;
+}
+
+.divider {
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.date-highlight {
+  color: #8b1e1e;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.family-parents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 520px;     /* quyết định độ “căng giữa” */
+  margin: 0 auto 30px; /* căn giữa cả block */
+  column-gap: 40px;
+}
+
+.family-left {
+  text-align: left;
+}
+
+.family-right {
+  text-align: right;
+}
+
+.family-card .family-title,
+.family-card .family-name,
+.family-card .family-address {
+  text-align: center;
+}
+
+.family-name {
+  font-weight: 600;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.invite-section {
+  background: #f6ede4;
+  padding: 20px 20px 0 20px;
+}
+
+.invite-card {
+  max-width: 520px;
+  margin: 0px auto;        /* tạo khoảng cách trên dưới */
+  background: #f6ede4;
+  text-align: center;
+  color: #5b3a2e;
+  padding: 20px 20px;
+  border-top: 2px solid #8b1e1e;   /* gạch ngang phía trên */
+  border-bottom: 2px solid #8b1e1e; /* gạch ngang phía dưới */
+  border-radius: 14px;              /* optional, bo góc */
+}
+
+.invite-highlight {
+  color: #8b1e1e;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 24px;
+  margin-bottom: 12px;  /* giảm */
+}
+
+.invite-text {
+  font-size: 18px;
+  line-height: 1.6;     /* giảm từ 2 → 1.6 */
+  letter-spacing: 1.2px;
+  margin: 6px 0;        /* thêm kiểm soát khoảng cách */
+}
+
+.invite-place {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  color: #8b1e1e;
+  margin: 16px 0;       /* giảm từ 26 → 16 */
+}
+
+.invite-date {
+  margin-top: 14px;     /* giảm */
+  font-weight: 700;
+  font-size: 20px;
+  color: #8b1e1e;
+  letter-spacing: 1.5px;
+}
+
+.invite-lunar {
+  font-size: 15px;
+  margin-top: 4px;      /* giảm */
+}
+
+.invite-text.soft {
+  font-size: 17px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.invite-text.address {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+  text-transform: none; /* ❗ bỏ ALL CAPS */
+}
+
+.invite-text.time {
+  margin-top: 14px;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.countdown-section {
+  padding: 20px 20px;
+  background: #f6ede4;
+}
+
+.countdown-card {
+  max-width: 520px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+/* LỊCH */
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.calendar th {
+  color: #8b1e1e;
+  padding-bottom: 8px;
+  font-weight: 600;
+}
+
+.calendar td {
+  padding: 8px 0;
+  position: relative;
+}
+
+.calendar .heart-day {
+  color: #fff;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.calendar .heart-day::before {
+  content: "❤";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+  font-size: 28px;
+  color: #8b1e1e;
+  z-index: -1;
+}
+
+/* COUNTDOWN */
+.countdown-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.timer {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+
+.time-box {
+  background: #f6ede4;
+  border-radius: 10px;
+  padding: 12px 6px;
+}
+
+.time-box span {
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  color: #8b1e1e;
+}
+
+.time-box small {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.divider-hi {
+  font-family: 'Playfair Display', serif; /* hoặc font mặc định */
+  font-size: 32px;
+  color: #8b1e1e;        /* đỏ cưới */
+  margin: 10px 0;
+}
+
+.map-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 12px 22px;
+  background: #8b1e1e;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  box-shadow: 0 8px 20px rgba(139,30,30,.25);
+  transition: all .3s ease;
+}
+
+.map-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(139,30,30,.35);
+  background: #a52727;
+}
+
+.map-button span {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .family-card {
+    padding: 20px 12px; /* QUAN TRỌNG */
+  }
+
+  .family-parents {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    max-width: 100%;   /* FULL */
+    width: 100%;
+    padding: 0;        /* BỎ đệm dư */
+  }
+
+  .family-left,
+  .family-right {
+    overflow: hidden;          /* CHỐT tràn */
+  }
+
+  .family-title {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .family-name {
+    font-size: 9px;
+    letter-spacing: 0.1px;
+    word-break: break-word;    /* QUAN TRỌNG */
+  }
+
+  .family-address,
+  .address-text {
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.4;
+    text-align: center;   /* ✅ CĂNG GIỮA */
+    font-size: 11px;      /* ✅ NHỎ HƠN */
+    letter-spacing: 0.3px;
+    opacity: 0.85;
+  }
+
+  .family-left {
+    text-align: left;
+  }
+
+  .invite-card {
+    max-width: 520px;
+    margin: 20px auto;
+    background: #f6ede4;
+    text-align: center;
+    color: #5b3a2e;
+    padding: 20px 20px;
+    border-radius: 0px;
+  }
+
+  .invite-card .invite-title,
+  .invite-card .invite-highlight,
+  .invite-card .invite-text,
+  .invite-card .invite-place,
+  .invite-card .invite-date,
+  .invite-card .invite-lunar {
+    font-size: 14px;  /* thu nhỏ chữ so với PC */
+    line-height: 1.4; /* giảm khoảng cách dòng */
+  }
+
+  .invite-card .invite-place {
+    font-size: 18px;  /* tên địa điểm vẫn nổi bật hơn */
+  }
+
+  .invite-card .invite-highlight {
+    font-size: 16px;
+  }
+
+  .invite-card .invite-date {
+    font-size: 16px;
+  }
+
+  .invite-card .invite-lunar {
+    font-size: 12px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery a:nth-child(5n+1) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .big-names {
+    font-size: 28px;        /* ↓ từ 44px */
+    margin: 10px 0;         /* gọn lại */
+    letter-spacing: 0.5px;  /* bớt giãn chữ */
+  }
+
+  .center-text {
+    font-size: 12px;
+  }
+
+  .divider-hi {
+    font-size: 24px;
+    margin: 8px 0;
+  }
+
+  .countdown-title {
+    font-size: 14px;   /* nhỏ lại xíu */
+    margin-bottom: 10px;
+  }
+
+  .map-button {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+
+}
+/* MESSAGE FROM COUPLE */
+/* INVITE MESSAGE */
+.message-section {
+  background: #f6ede4;
+  padding: 40px 20px;
+}
+
+.invite-message {
+  max-width: 720px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 48px 32px;
+  text-align: center;
+  box-shadow: 0 16px 40px rgba(0,0,0,.08);
+}
+
+/* Trang trí */
+.invite-decor {
+  font-size: 30px;
+  color: #8b1e1e;
+  margin-bottom: 20px;
+}
+
+/* Nội dung chính */
+.invite-text-main {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  line-height: 1.7;
+  color: #5b3a2e;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+/* Nội dung phụ */
+.invite-text-sub {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  opacity: 0.85;
+  margin-bottom: 26px;
+}
+
+/* Chữ ký */
+.invite-sign {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: #8b1e1e;
+  letter-spacing: 2px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .invite-message {
+    padding: 32px 20px;
+  }
+
+  .invite-text-main {
+    font-size: 18px;
+  }
+
+  .invite-text-sub {
+    font-size: 14px;
+  }
+
+  .invite-sign {
+    font-size: 15px;
+  }
+}
+
+/* ===== THANK YOU FOOTER ===== */
+.thankyou-footer {
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+}
+
+/* Background image */
+.thankyou-bg {
+  position: absolute;
+  inset: 0;
+  background: 
+    url("https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512054010584_b36f249f98da738239789568bd42635e_jmi1yg.jpg")
+    center top / cover no-repeat;
+  z-index: 1;
+  transform: scale(1.05);
+}
+
+
+/* Overlay làm mờ ảnh */
+.thankyou-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.65)
+  );
+  z-index: 2;
+}
+
+/* Nội dung */
+.thankyou-content {
+  position: relative;
+  z-index: 3;
+  max-width: 700px;
+}
+
+.thankyou-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 46px;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+}
+
+.thankyou-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.thankyou-content .signature {
+  margin-top: 28px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .thankyou-footer {
+    min-height: 320px;
+  }
+
+  .thankyou-content h2 {
+    font-size: 32px;
+  }
+
+  .thankyou-content p {
+    font-size: 14px;
+  }
+
+  .thankyou-content .signature {
+    font-size: 16px;
+  }
+}
+
+.memory-strip {
+  background: #f6ede4;
+  padding: 20px 20px;
+}
+
+.memory-grid {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.memory-grid img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-position: top;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+
+.memory-grid img:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 14px 30px rgba(0,0,0,.18);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .memory-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* ===== GIFT BUTTON ===== */
+.gift-button {
+  margin-top: 20px;
+  padding: 14px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  background: #8b1e1e;
+  color: #fff;
+  box-shadow: 0 10px 28px rgba(139,30,30,.3);
+  transition: all .3s ease;
+}
+
+.gift-button:hover {
+  transform: translateY(-2px);
+  background: #a52727;
+  box-shadow: 0 14px 34px rgba(139,30,30,.4);
+}
+
+/* ===== POPUP ===== */
+.gift-popup {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Overlay */
+.gift-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  backdrop-filter: blur(4px);
+}
+
+/* Modal */
+.gift-modal {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  padding: 36px 28px;
+  border-radius: 22px;
+  width: 90%;
+  max-width: 360px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0,0,0,.25);
+  animation: giftFade .4s ease;
+}
+
+@keyframes giftFade {
+  from {
+    opacity: 0;
+    transform: scale(.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.gift-modal h3 {
+  font-family: 'Playfair Display', serif;
+  color: #8b1e1e;
+  margin-bottom: 16px;
+}
+
+.gift-modal img {
+  width: 220px;
+  margin: 12px 0;
+}
+
+.gift-name {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+.gift-note {
+  font-size: 14px;
+  opacity: .8;
+  margin-top: 16px;
+}
+
+/* Close */
+.gift-close {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  font-size: 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: .5;
+}
+
+.gift-close:hover {
+  opacity: .8;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .gift-modal img {
+    width: 200px;
+  }
+}
+#snow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+}
+</style>
+</head>
+
+<body>
+<canvas id="snow"></canvas>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-names" data-aos="fade-up">
+      <span class="name">Thùy Chung</span>
+      <span class="heart">❤</span>
+      <span class="name">Mạnh Tuấn</span>
+    </h1>
+
+    <p data-aos="fade-up" data-aos-delay="200">LỄ THÀNH HÔN</p>
+
+    <p data-aos="fade-up" data-aos-delay="400">
+      25 • 02 • 2026<br>
+      <small>(09 • 01 • Bính Ngọ)</small>
+    </p>
+  </div>
+</section>
+<!-- MESSAGE FROM COUPLE -->
+<section class="message-section">
+  <div class="invite-message" data-aos="fade-up">
+    <div class="invite-decor">❦</div>
+
+    <div class="invite-text-main">
+      Chúng tôi trân trọng kính mời<br>
+      <strong>Quý gia đình và bạn bè thân hữu</strong><br>
+      đến dự buổi lễ trọng đại của chúng tôi.
+    </div>
+
+    <div class="invite-text-sub">
+      Sự hiện diện của Quý vị<br>
+      là niềm vinh hạnh cho gia đình hai bên.
+    </div>
+
+    <div class="invite-sign">
+      Thùy Chung & Mạnh Tuấn
+    </div>
+  </div>
+</section>
+<!-- MEMORY STRIP -->
+<section class="memory-strip">
+  <div class="memory-grid">
+    <img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512053995155_d03e50b96cd4d21934520e702ce086e8_intyw3.jpg" alt="">
+    <img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479664/z7512054032545_a7a227a80e55ddd354ed5502d6f9ed03_yjuwbc.jpg" alt="">
+    <img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479663/z7512054019625_d5186ae9af651d13a56b4286b5c3ec56_epdplv.jpg" alt="">
+    <img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479663/z7512054014702_9c8206ad370d15480a155505dd1ea529_qlzpgp.jpg" alt="">
+  </div>
+</section>
+<!-- FAMILY SECTION -->
+<section class="family-section">
+  <div class="family-card">
+
+    <div class="family-parents">
+      <div class="family-left">
+        <div class="family-title">Nhà Gái</div>
+        <div class="family-name">Ông: NGUYỄN VĂN TRƯỞNG</div>
+        <div class="family-name">Bà: TRỊNH THỊ THỦY</div>
+        <div class="family-address">
+        </div>
+      </div>
+      <div class="family-right">
+        <div class="family-title">Nhà Trai</div>
+        <div class="family-name">Ông: NGUYỄN MẠNH BA</div>
+        <div class="family-name">Bà: NGUYỄN THỊ SONG</div>
+        <div class="family-address">
+        </div>
+      </div>
+    </div>
+
+    <!-- THÔNG BÁO -->
+    <div class="center-text">
+      TRÂN TRỌNG BÁO TIN LỄ THÀNH HÔN<br>
+      CỦA HAI CON CHÚNG TÔI
+    </div>
+
+    <!-- TÊN CÔ DÂU – CHÚ RỂ -->
+    <div class="big-names">Thùy Chung</div>
+    <div class="divider divider-hi">囍</div>
+    <div class="big-names">Mạnh Tuấn</div>
+
+    <!-- THỜI GIAN -->
+    <div class="center-text">
+      HÔN LỄ ĐƯỢC CỬ HÀNH TẠI TƯ GIA NHÀ TRAI<br>
+      VÀO LÚC 11:30
+    </div>
+
+    <div class="date-highlight">
+      Thứ Năm – 26 / 02 / 2026
+    </div>
+
+    <div style="font-size:14px;margin-top:6px;">
+      (Nhằm ngày 10 tháng 01 năm Bính Ngọ)
+    </div>
+
+  </div>
+</section>
+
+<!-- ALBUM -->
+<section class="section">
+  <h2 class="title">Album Hình Cưới</h2>
+
+<div class="gallery">
+  <a href="https://res.cloudinary.com/drramnbrw/image/upload/v1770479663/z7512054041477_84b122ab7cdd8f8270a6e975ce71c322_vmhkt7.jpg" class="glightbox"><img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479663/z7512054041477_84b122ab7cdd8f8270a6e975ce71c322_vmhkt7.jpg"></a>
+  <a href="https://res.cloudinary.com/drramnbrw/image/upload/v1770479661/z7512054048152_936a6f972f2dc8ea76d6c7a1088210f4_qdf5j4.jpg" class="glightbox"><img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479661/z7512054048152_936a6f972f2dc8ea76d6c7a1088210f4_qdf5j4.jpg"></a>
+  <a href="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512053995889_d5838a3e3de3ae7543043bd4b2207fa7_k5e2gg.jpg" class="glightbox"><img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512053995889_d5838a3e3de3ae7543043bd4b2207fa7_k5e2gg.jpg"></a>
+  <a href="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512054010980_44d8c757e0ded6d605a6ec4f36c46e34_zte4dk.jpg" class="glightbox"><img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512054010980_44d8c757e0ded6d605a6ec4f36c46e34_zte4dk.jpg"></a>
+  <a href="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512053995155_d03e50b96cd4d21934520e702ce086e8_intyw3.jpg" class="glightbox"><img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479662/z7512053995155_d03e50b96cd4d21934520e702ce086e8_intyw3.jpg"></a>
+  <a href="hhttps://res.cloudinary.com/drramnbrw/image/upload/v1770479664/z7512054034889_b67104ee0e7931f209159011a8d475c6_ce2mtx.jpg" class="glightbox"><img src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479664/z7512054034889_b67104ee0e7931f209159011a8d475c6_ce2mtx.jpg"></a>
+</div>
+</section>
+
+<section class="countdown-section">
+  <div class="countdown-card">
+
+    <!-- LỊCH -->
+    <table class="calendar">
+      <thead>
+        <tr>
+          <th>CN</th><th>T2</th><th>T3</th><th>T4</th>
+          <th>T5</th><th>T6</th><th>T7</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td><td>2</td><td>3</td><td>4</td>
+          <td>5</td><td>6</td><td>7</td>
+        </tr>
+        <tr>
+          <td>8</td><td>9</td><td>10</td><td>11</td>
+          <td>12</td><td>13</td><td>14</td>
+        </tr>
+        <tr>
+          <td>15</td><td>16</td><td>17</td><td>18</td>
+          <td>19</td><td>20</td><td>21</td>
+        </tr>
+        <tr>
+          <td>22</td><td>23</td><td>24</td><td>25</td>
+          <td class="heart-day">26</td><td>27</td><td>28</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- COUNTDOWN -->
+    <div class="countdown-title">
+      Đếm ngược đến ngày yêu thương 💖
+    </div>
+
+    <div class="timer" id="countdown">
+      <div class="time-box"><span id="days">0</span><small>Ngày</small></div>
+      <div class="time-box"><span id="hours">0</span><small>Giờ</small></div>
+      <div class="time-box"><span id="minutes">0</span><small>Phút</small></div>
+      <div class="time-box"><span id="seconds">0</span><small>Giây</small></div>
+    </div>
+
+  </div>
+</section>
+
+<section class="invite-section">
+  <div class="invite-card">
+    <div class="invite-title">TRÂN TRỌNG KÍNH MỜI</div>
+    <div class="invite-highlight">QUÝ BẠN BÈ</div>
+    <div class="invite-text soft">
+      Đến dự buổi tiệc chung vui<br>
+      cùng gia đình chúng tôi tại
+    </div>
+    <div class="invite-place">Nhà Gái</div>
+    <div class="invite-text address">
+      Thôn Đích Chiều, Bình Lục,<br>
+      Hàn Nam
+    </div>
+    <div class="invite-text time">
+      VÀO LÚC <strong>17 GIỜ 30</strong>
+    </div>
+    <div class="invite-date">
+      Thứ Tư – 25 / 02 / 2026
+    </div>
+    <div class="invite-lunar">
+      (Nhằm ngày 09 tháng 01 năm Bính Ngọ)
+    </div>
+  </div>
+
+</section>
+
+<!-- MAP -->
+<section class="section">
+  <h2 class="title">Địa Điểm Tổ Chức</h2>
+  <p>Thôn Đích Chiều, Bình Lục, Hà Nam</p>
+
+  <div style="max-width:900px;margin:auto;border-radius:14px;overflow:hidden">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d12575.178924799626!2d105.99325338314692!3d20.43958715187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI2JzIzLjgiTiAxMDXCsDU5JzQ5LjIiRQ!5e0!3m2!1svi!2s!4v1770480439645!5m2!1svi!2s"
+      width="100%" height="350" style="border:0">
+    </iframe>
+  </div>
+<a 
+  class="map-button"
+  href="https://maps.app.goo.gl/M6ymo4UviG8KRAZr5"
+  target="_blank"
+>
+  <span>📍</span> XEM BẢN ĐỒ
+</a>
+</section>
+
+<!-- QR -->
+<!-- WEDDING GIFT -->
+<section class="section gift-section">
+  <h2 class="title">Quà Mừng Cưới</h2>
+
+  <div class="qr-card" style="margin:auto; max-width:360px">
+    <h3 style="color:#8b1e1e;font-family:'Playfair Display',serif;">
+      BIDV
+    </h3>
+
+    <img
+      src="https://res.cloudinary.com/drramnbrw/image/upload/v1770479661/z7512055571935_1d4345fbb22b7e8642f085e6e846f49f_hcvvwn.jpg"
+      alt="QR Mừng Cưới"
+      style="width:220px;margin:16px auto"
+    >
+
+    <p class="gift-name">NGUYỄN THỊ CHUNG</p>
+
+    <p class="gift-note">
+      Cảm ơn sự yêu thương và chúc phúc của bạn 💖
+    </p>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<section class="thankyou-footer">
+  <div class="thankyou-bg"></div>
+  <div class="thankyou-overlay"></div>
+
+  <div class="thankyou-content" data-aos="fade-up">
+    <h2>Thank You</h2>
+  <p>
+    Cảm ơn bạn đã dành tình cảm cho chúng mình.<br>
+    Sự hiện diện của bạn chính là món quà ý nghĩa nhất<br>
+  </p>
+    <div class="signature">
+      Thùy Chung & Mạnh Tuấn
+    </div>
+  </div>
+</section>
+<!-- MUSIC -->
+<audio id="bgMusic" loop>
+  <source src="https://res.cloudinary.com/drramnbrw/video/upload/v1770479663/Until_you_qtjnze.mp3" type="audio/mpeg">
+</audio>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  GLightbox({ loop: true });
+</script>
+<script>
+  const targetDate = new Date("2026-02-25T11:30:00").getTime();
+
+  const timer = setInterval(() => {
+    const now = new Date().getTime();
+    let distance = targetDate - now;
+
+    if (distance <= 0) {
+      clearInterval(timer);
+      document.getElementById("countdown").innerHTML =
+        "<div style='font-size:20px;color:#8b1e1e;font-weight:600'>💖 Đến ngày yêu thương rồi 💖</div>";
+      return;
+    }
+
+    document.getElementById("days").innerText =
+      Math.floor(distance / (1000 * 60 * 60 * 24));
+    document.getElementById("hours").innerText =
+      Math.floor((distance / (1000 * 60 * 60)) % 24);
+    document.getElementById("minutes").innerText =
+      Math.floor((distance / (1000 * 60)) % 60);
+    document.getElementById("seconds").innerText =
+      Math.floor((distance / 1000) % 60);
+  }, 1000);
+</script>
+
+<script>
+  const music = document.getElementById("bgMusic");
+  let started = false;
+
+  function startExperience() {
+    if (started) return;
+    started = true;
+
+    music.volume = 0;
+
+    music.play()
+      .then(() => {
+        let v = 0;
+        const fade = setInterval(() => {
+          if (v < 0.8) {
+            v += 0.04;
+            music.volume = v;
+          } else {
+            clearInterval(fade);
+          }
+        }, 120);
+      })
+      .catch(() => {
+        // Safari đôi khi reject lần đầu → thử lại 1 lần
+        setTimeout(() => music.play(), 300);
+      });
+
+    // ❗ GỠ LISTENER SAU KHI ĐÃ START
+    document.removeEventListener("click", startExperience);
+    document.removeEventListener("touchstart", startExperience);
+  }
+
+  // CHỈ 1 LẦN DUY NHẤT
+  document.addEventListener("click", startExperience, { once: true });
+  document.addEventListener("touchstart", startExperience, { once: true });
+</script>
+
+
+<script>
+  const canvas = document.getElementById("snow");
+  const ctx = canvas.getContext("2d");
+
+  let w, h;
+  function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+  window.addEventListener("resize", resize);
+  resize();
+
+  const flakes = [];
+  const count = 70; // ít hơn = sang hơn
+
+  for (let i = 0; i < count; i++) {
+    flakes.push({
+      x: Math.random() * w,
+      y: Math.random() * h,
+      r: Math.random() * 2 + 1,
+      d: Math.random() * 0.8 + 0.2,
+      s: Math.random() * 0.25 + 0.1
+    });
+  }
+
+  let angle = 0;
+  function draw() {
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = "rgba(255,255,255,.85)";
+    ctx.beginPath();
+
+    for (let f of flakes) {
+      ctx.moveTo(f.x, f.y);
+      ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2);
+    }
+
+    ctx.fill();
+
+    angle += 0.002;
+
+    for (let f of flakes) {
+      f.y += f.s + f.d * 0.4;
+      f.x += Math.sin(angle) * 0.3;
+
+      if (f.y > h) {
+        f.y = -10;
+        f.x = Math.random() * w;
+      }
+    }
+
+    requestAnimationFrame(draw);
+  }
+
+  draw();
+</script>
+<script>
+  let autoScroll = true;
+  let scrollSpeed = 0.6; // 0.4–1.2 là đẹp
+
+  function smoothAutoScroll() {
+    if (!autoScroll) return;
+
+    window.scrollBy(0, scrollSpeed);
+
+    // Dừng khi tới đáy
+    if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 2) {
+      autoScroll = false;
+      return;
+    }
+
+    requestAnimationFrame(smoothAutoScroll);
+  }
+
+  // Bắt đầu auto scroll ngay khi load
+  window.addEventListener("load", () => {
+    requestAnimationFrame(smoothAutoScroll);
+  });
+
+  // ===== DỪNG KHI NGƯỜI DÙNG CHẠM =====
+  function stopAutoScroll() {
+    autoScroll = false;
+  }
+
+  window.addEventListener("wheel", stopAutoScroll, { passive: true });
+  window.addEventListener("touchstart", stopAutoScroll, { passive: true });
+  window.addEventListener("keydown", stopAutoScroll);
+  window.addEventListener("mousedown", stopAutoScroll);
+</script>
+
+
+</body>
+</html>
